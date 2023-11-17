@@ -23,8 +23,9 @@ public class MainProgram {
             System.out.printf("Animal: Hello, I'm %s the %s \n", a.getName(), a.getSpecies());
 
             // add a POLYMORPHIC call to makeNoise();
-
+           a.makeNoise();
             // add a POLYMORPHIC call to eatUnderYonderTree();
+          a.eatUnderYonderTree();
 
             if ( a instanceof Armadillo)
                 System.out.println("EEEEEK. AN ARMADILLO!");

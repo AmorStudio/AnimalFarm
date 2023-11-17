@@ -27,6 +27,8 @@ public abstract class Animal {
     // Methods
     abstract public void makeNoise();
 
+
+
     public void eatUnderYonderTree() {
         System.out.println("Munch Crunch Sluuuurp");
     }

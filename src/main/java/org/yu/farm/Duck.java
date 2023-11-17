@@ -3,6 +3,7 @@ package org.yu.farm;
 public class Duck extends Animal {
 
     public Duck(String name) {
+
         this(AnimalType.DUCK, name);
     }
 
@@ -12,7 +13,13 @@ public class Duck extends Animal {
 
     @Override
     public void makeNoise() {
+
         System.out.println("Quack!  Quack!");
+    }
+
+    @Override
+    public void eatUnderYonderTree() {
+        System.out.println("Duck is eating under yonder tree");
     }
 
 }

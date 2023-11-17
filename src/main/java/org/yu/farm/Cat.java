@@ -9,7 +9,13 @@ public class Cat extends Animal {
 
     @Override
     public void makeNoise() {
+
         System.out.println("Mrrrowwrr prrt");
+    }
+
+    @Override
+    public void eatUnderYonderTree() {
+        System.out.println("Cat is Eating under yonder tree");
     }
 
 }

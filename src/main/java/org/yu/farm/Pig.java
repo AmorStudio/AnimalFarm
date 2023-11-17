@@ -14,5 +14,10 @@ public class Pig extends Animal {
     public void makeNoise() {
         System.out.println("Weeee Weeee Weeee all the way home!");
     }
+    public void  eatUnderYonderTree() {
+        System.out.println("Pig is eating under yonder tree");
+        }
 
-}
+    }
+
+
