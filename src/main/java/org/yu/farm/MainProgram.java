@@ -1,5 +1,7 @@
 package org.yu.farm;
 
+import org.yu.farm.scary.ScaryAnimal;
+
 import java.util.List;
 
 /*
@@ -30,6 +32,8 @@ public class MainProgram {
             if ( a instanceof Armadillo)
                 System.out.println("EEEEEK. AN ARMADILLO!");
 
+            if ( a instanceof ScaryAnimal)
+                System.out.println("EEEEEEEEEEEEK!  A SCARY ANIMAL!");
             System.out.println("");
 
         }

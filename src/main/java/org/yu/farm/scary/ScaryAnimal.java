@@ -4,8 +4,8 @@ import org.yu.farm.Animal;
 import org.yu.farm.AnimalType;
 
 public class ScaryAnimal extends Animal {
-    public ScaryAnimal(AnimalType species, String name) {
-        super(species, name);
+    public ScaryAnimal( String name) {
+        super(AnimalType.ARMADILLO, name);
     }
 
     @Override
